@@ -23,6 +23,11 @@
   "scripts": {
     "test": "jest"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "lint-staged": {
     "*.{js,jsx,json,md}": [
       "prettier --write",
@@ -49,10 +54,10 @@
   "dependencies": {
     "core.lambda": "1.0.0",
     "data.either": "1.5.2",
-    "fs-extra": "9.0.0",
+    "fs-extra": "^11.1.1",
     "glob": "7.1.6",
-    "handlebars": "^4.7.2",
-    "handlebars-helpers": "0.10.0",
+    "handlebars": "^4.7.8",
+    "handlebars-helpers": "^0.10.0",
     "immutable": "3.8.2",
     "immutable-ext": "1.1.5",
     "js-yaml": "3.13.1",
@@ -65,8 +70,9 @@
     "yargs": "^15.3.1"
   },
   "devDependencies": {
+    "husky": "^4.3.8",
     "jest": "^26.0.1",
-    "lint-staged": "^10.0.8",
+    "lint-staged": "^10.5.4",
     "prettier": "^2.0.4"
   }
 }
