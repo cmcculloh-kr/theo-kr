@@ -1,5 +1,5 @@
 {
-  "name": "theo",
+  "name": "theo-kr",
   "version": "8.1.5",
   "license": "BSD-3-Clause",
   "description": "Design Tokens formatter",
@@ -23,11 +23,6 @@
   "scripts": {
     "test": "jest"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
     "*.{js,jsx,json,md}": [
       "prettier --write",
@@ -39,17 +34,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/salesforce-ux/theo.git"
+    "url": "https://github.com/cmcculloh-kr/theo-kr.git"
   },
   "authors": [
     "Salesforce and contributors",
     "Adam Putinski",
-    "Sönke Rohde <soenke.rohde@gmail.com>"
+    "Sönke Rohde <soenke.rohde@gmail.com>",
+    "Christopher McCulloh <christopher.mcculloh@kroger.com"
   ],
   "bugs": {
-    "url": "https://github.com/salesforce-ux/theo/issues"
+    "url": "https://github.com/cmcculloh-kr/theo/issues"
   },
-  "homepage": "https://github.com/salesforce-ux/theo",
+  "homepage": "https://github.com/cmcculloh-kr/theo",
   "dependencies": {
     "core.lambda": "1.0.0",
     "data.either": "1.5.2",
@@ -69,7 +65,6 @@
     "yargs": "^15.3.1"
   },
   "devDependencies": {
-    "husky": "^4.2.3",
     "jest": "^26.0.1",
     "lint-staged": "^10.0.8",
     "prettier": "^2.0.4"
