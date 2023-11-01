@@ -1,6 +1,6 @@
 {
   "name": "theo-kr",
-  "version": "8.1.5",
+  "version": "8.1.7",
   "license": "BSD-3-Clause",
   "description": "Design Tokens formatter",
   "keywords": [
@@ -57,7 +57,7 @@
     "fs-extra": "^11.1.1",
     "glob": "7.1.6",
     "handlebars": "^4.7.8",
-    "handlebars-helpers": "^0.10.0",
+    "handlebars-helpers-kr": "^0.10.5",
     "immutable": "3.8.2",
     "immutable-ext": "1.1.5",
     "js-yaml": "3.13.1",
